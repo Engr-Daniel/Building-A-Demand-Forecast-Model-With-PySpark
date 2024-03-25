@@ -1,5 +1,8 @@
-BUILDING A DEMAND FORECASTING MODEL 
+# BUILDING A DEMAND FORECASTING MODEL 
 -----------------------------------
+
+![Shopping Cart](https://media.istockphoto.com/id/513984990/vector/young-woman-pushing-supermarket-shopping-cart.jpg?s=612x612&w=0&k=20&c=0j5sgsyfAwjlg4CU2yNngIpoCjjexv1qeyqdqQSssEE=)
+
 Building a demand forcasting model project is used to predict e-commerce product demand using PySpark to answer business questions regarding supply chain efficiency.
 
 **Problem Statement:**
@@ -11,14 +14,15 @@ You work for the Sales & Operations Planning (S&OP) team at a multinational e-co
 
 **DATA**
 -----
-The data for this project is [Online Retail.csv](https://app.datacamp.com/workspace/w/2fc84039-008c-468d-8753-ab449d11158e/edit) gotten the project work space on DataCamp
+The data for this project is [Online Retail.csv](https://app.datacamp.com/workspace/w/2fc84039-008c-468d-8753-ab449d11158e/edit) gotten from the project work space on DataCamp
 
 **Project Applications:**
-This project has application for the following
-- Inventory Management
-- Production Planning
-- Risk Management
-- Customer Service Optimization
+
+This project can be applied for the following
+  - Inventory Management
+  - Production Planning
+  - Risk Management
+  - Customer Service Optimization
 
 **Insatallation**
 `pip install pyspark`
@@ -32,20 +36,21 @@ Using your test set, calculate the Mean Absolute Error (MAE) for your forecast m
 
 How many units are expected to be sold during the week 39 of 2011? Store as an integer variable called quantity_sold_w39.
 
-**Project Steps**
+**PROJECT STEPS**
+-----------------------
 1. Import Libraries
 2. Initiate Spark Session
 3. Import Data
 4. Data Processing
-- Convert the InvoiceDate to datetime
-- Aggregate the Data into Daily Intervals
+    - Convert the InvoiceDate to datetime
+    - Aggregate the Data into Daily Intervals
 5. Split Dataset into train aand test set
 6. Feature Engineering
-- Creating indexer for categorical columns
-- Select features columns
+    - Creating indexer for categorical columns
+    - Select features columns
 7. Build Regression Model
-- Initialize the regressor
-- Create a pipeline for staging the processes
+    - Initialize the regressor
+    - Create a pipeline for staging the processes
 8. Train Model
 9. Evaluate Model
 10. Inference
