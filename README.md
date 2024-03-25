@@ -56,11 +56,13 @@ How many units are expected to be sold during the week 39 of 2011? Store as an i
 10. Inference
 
 **Acknowledement:**
+
 Thanks to I4G for sponsoring  my Datacamp Premium account.
 
 **Challenges:**
 - Computational Cost
-- PySpark RuntimeError: Java gateway process exited
+- PySpark RuntimeError: Java gateway process exited.
+  
 In order to solve the run time error, check out [Alexandre Warembourg](https://towardsdatascience.com/pyspark-demand-forecasting-data-science-project-dae14b5319cc) post
 
 
