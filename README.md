@@ -1,7 +1,7 @@
 # BUILDING A DEMAND FORECASTING MODEL 
 -----------------------------------
 
-![Shopping Cart](https://media.istockphoto.com/id/513984990/vector/young-woman-pushing-supermarket-shopping-cart.jpg?s=612x612&w=0&k=20&c=0j5sgsyfAwjlg4CU2yNngIpoCjjexv1qeyqdqQSssEE=)
+<img src="https://media.istockphoto.com/id/513984990/vector/young-woman-pushing-supermarket-shopping-cart.jpg?s=612x612&w=0&k=20&c=0j5sgsyfAwjlg4CU2yNngIpoCjjexv1qeyqdqQSssEE=" alt="Shopping Cart">
 
 Building a demand forcasting model project is used to predict e-commerce product demand using PySpark to answer business questions regarding supply chain efficiency.
 
